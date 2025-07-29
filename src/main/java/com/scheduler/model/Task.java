@@ -3,6 +3,11 @@ package com.scheduler.model;
 import java.time.Instant;
 import java.util.UUID;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Task implements Comparable<Task> {
      private final String id;
      private final int priority; // 0 = alta, 1 = média, 2 = baixa
@@ -21,9 +26,8 @@ public class Task implements Comparable<Task> {
      @Override
      public int compareTo(Task other) {
           int timeCompare = this.nextRetryAt.compareTo(other.nextRetryAt);
-          if (timeCompare != 0)
-               return timeCompare;
-          return Integer.compare(this.priority, other.priority);
+
+          return (timeCompare != 0) ? timeCompare : Integer.compare(this.priority, other.priority);
      }
 
      @Override
