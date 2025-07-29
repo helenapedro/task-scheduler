@@ -69,7 +69,7 @@ mvn exec:java -Dexec.mainClass="com.scheduler.Main"
 
 ## 📌 Future Improvements
 
-- [ ] Persistence with MongoDB, SQLite or Hostinger SQL
+- [ ] Persistence with MongoDB or Hostinger SQL
 - [ ] Monitoring dashboard (Spring Boot + REST API)
 - [ ] Parallel execution with ExecutorService (multithreading)
 - [ ] DLQ export to JSON or CSV
