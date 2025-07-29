@@ -1,5 +1,9 @@
 C:\Users\mbeua\Área de Trabalho\Projects\Current\task-scheduler\src\main\java\com\scheduler\Main.java
 C:\Users\mbeua\Área de Trabalho\Projects\Current\task-scheduler\src\main\java\com\scheduler\model\Task.java
 C:\Users\mbeua\Área de Trabalho\Projects\Current\task-scheduler\src\main\java\com\scheduler\model\TestTask.java
+C:\Users\mbeua\Área de Trabalho\Projects\Current\task-scheduler\src\main\java\com\scheduler\queue\DeadLetterQueue.java
 C:\Users\mbeua\Área de Trabalho\Projects\Current\task-scheduler\src\main\java\com\scheduler\queue\TaskPriorityQueue.java
 C:\Users\mbeua\Área de Trabalho\Projects\Current\task-scheduler\src\main\java\com\scheduler\queue\TestTaskPriorityQueue.java
+C:\Users\mbeua\Área de Trabalho\Projects\Current\task-scheduler\src\main\java\com\scheduler\retry\RetryPolicy.java
+C:\Users\mbeua\Área de Trabalho\Projects\Current\task-scheduler\src\main\java\com\scheduler\scheduler\TaskScheduler.java
+C:\Users\mbeua\Área de Trabalho\Projects\Current\task-scheduler\src\main\java\com\scheduler\scheduler\TestTaskScheduler.java

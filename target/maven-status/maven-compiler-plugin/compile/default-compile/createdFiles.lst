@@ -1,5 +1,9 @@
+com\scheduler\scheduler\TestTaskScheduler.class
 com\scheduler\Main.class
 com\scheduler\model\Task.class
 com\scheduler\queue\TaskPriorityQueue.class
 com\scheduler\model\TestTask.class
 com\scheduler\queue\TestTaskPriorityQueue.class
+com\scheduler\retry\RetryPolicy.class
+com\scheduler\queue\DeadLetterQueue.class
+com\scheduler\scheduler\TaskScheduler.class
