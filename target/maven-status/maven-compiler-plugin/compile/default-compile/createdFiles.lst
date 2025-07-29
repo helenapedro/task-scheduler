@@ -1,3 +1,5 @@
 com\scheduler\Main.class
 com\scheduler\model\Task.class
+com\scheduler\queue\TaskPriorityQueue.class
 com\scheduler\model\TestTask.class
+com\scheduler\queue\TestTaskPriorityQueue.class

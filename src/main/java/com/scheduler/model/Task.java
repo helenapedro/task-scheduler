@@ -23,6 +23,11 @@ public class Task implements Comparable<Task> {
           this.nextRetryAt = Instant.now();
      }
 
+     /*
+      * The compareTo method first compares nextRetryAt,
+      * in case of a tie, it compares priority (lowest = highest)
+      */
+
      @Override
      public int compareTo(Task other) {
           int timeCompare = this.nextRetryAt.compareTo(other.nextRetryAt);
