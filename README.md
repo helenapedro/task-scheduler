@@ -36,16 +36,16 @@ Client → TaskScheduler → PriorityQueue
 
 ### `TestTask.java` – Sorting by nextRetryAt and priority
 
-![TestTask](./TestTask.png)
+![TestTask](https://task-scheduler-mf.s3.us-east-2.amazonaws.com/TestTask.png)
 
 ### `TestTaskPriorityQueue.java` – Queue behavior and execution order
 
-![TestTaskPriorityQueue](./TestTaskPriorityQueue.png)
+![TestTaskPriorityQueue](https://task-scheduler-mf.s3.us-east-2.amazonaws.com/TestTaskPriorityQueue.png)
 
 ### `TestTaskScheduler.java` – Retry simulation and DLQ
 
-![Main1](./Main1.png)
-![Main3](./Main3.png)
+![Main1](https://task-scheduler-mf.s3.us-east-2.amazonaws.com/Main1.png)
+![Main3](https://task-scheduler-mf.s3.us-east-2.amazonaws.com/Main3.png)
 
 ---
 
