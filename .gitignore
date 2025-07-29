@@ -1,0 +1,4 @@
+.vscode
+target/classes/com/scheduler
+target/test-classes/com/example/
+target/test-classes/com/scheduler/
