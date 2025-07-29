@@ -29,6 +29,26 @@ Client → TaskScheduler → PriorityQueue
 
 ---
 
+
+---
+
+## 📸 Console Output Samples
+
+### `TestTask.java` – Sorting by nextRetryAt and priority
+
+![TestTask](./TestTask.png)
+
+### `TestTaskPriorityQueue.java` – Queue behavior and execution order
+
+![TestTaskPriorityQueue](./TestTaskPriorityQueue.png)
+
+### `TestTaskScheduler.java` – Retry simulation and DLQ
+
+![Main1](./Main1.png)
+![Main3](./Main3.png)
+
+---
+
 ## 📁 Project Structure
 
 ```
