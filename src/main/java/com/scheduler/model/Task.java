@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 public class Task implements Comparable<Task> {
      private final String id;
-     private final int priority; // 0 = alta, 1 = média, 2 = baixa
+     private final int priority; // 0 = high, 1 = medium, 2 = low
      private final String payload;
      private int retryCount;
      private Instant nextRetryAt;

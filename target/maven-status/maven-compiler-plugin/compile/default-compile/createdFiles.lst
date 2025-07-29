@@ -1,2 +1,3 @@
 com\scheduler\Main.class
 com\scheduler\model\Task.class
+com\scheduler\model\TestTask.class
