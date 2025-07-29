@@ -2,3 +2,5 @@
 target/classes/com/scheduler
 target/test-classes/com/example/
 target/test-classes/com/scheduler/
+target/generated-sources
+target/maven-status
